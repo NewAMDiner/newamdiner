@@ -1,0 +1,266 @@
+html,body{
+	margin:0px;
+	background-image: url("img/spring.png");
+	z-index: -10;
+
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+}
+
+h1{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-variant: bold;
+	font-style: italic;
+	line-height: 20px;
+}
+
+h2{
+	font-size: 280%;
+	font-family: 'Bitter', serif;
+	font-weight: 100;
+	line-height: 0px;
+	text-align: center;
+	color:#ffe63b;
+}
+
+h3{
+	text-align: center;
+	color:blue;
+	font-family: 'Playfair Display', serif;
+	font-weight: 100;
+}
+
+hr{
+	border-style: solid;
+	height: 2px;
+}
+
+ul{
+	padding:0px;
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+}
+li{
+	padding-bottom:15px;
+}
+
+img {
+	width: 100%;
+}
+
+#page{
+	margin: auto;
+	width: 840px;
+	padding-top: 40px;
+}
+
+#ls{
+	position:fixed;
+	width: 7px;
+	height:100%;
+	background:-webkit-linear-gradient(#ffec94, #ffcf0f);
+}
+
+#rs{
+	right:0px;
+	position:fixed;
+	width: 7px;
+	height:100%;
+	background:-webkit-linear-gradient( #ffec94, #ffcf0f);
+}
+
+.tag{
+	border: 3px;
+	border-color: blue;
+	border-style: dashed;
+	margin:auto;
+	width: 410px;
+	height: 70px;
+	border-radius: 300px / 50px;
+	padding: 30px;
+	background-color: white;
+}
+
+.hours{
+	max-width: 1200px;
+	/*border-style: solid;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: #dff7c6;*/
+	overflow: hidden;
+	background-color: white;
+	display: block;
+	padding:5px;
+	margin:auto;
+	margin-bottom: 50px;
+}
+
+#grid{
+	z-index: -10;
+	display: block;
+	position: absolute;
+}
+
+.day{
+	text-align: center;
+	border: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: green;
+	padding: 10px;
+	display:inline-block;
+	width:149px;
+	height:150px;
+	float: left;
+}
+
+/*#monday{
+	background-color: #795;
+}
+
+#tuesday{
+	text-align: center;
+	background-color: #8C2;
+}
+
+#wednesday{
+	background-color: orange;
+}
+
+#thursday{
+	background-color: #e74;
+}
+
+#friday{
+	background-color: #27f;
+}
+
+#saturday{
+	background-color: #87f;
+}
+
+#sunday{
+	background-color: #c4a;
+}*/
+
+#map{
+	background-color: white;
+	padding: 50px;
+	width: 300px;
+	margin-left:50px;
+	margin-right: auto;
+	text-align: center;	
+	display: inline-block;
+	margin-bottom: 50px;
+	background-image: url("img/fisch.png");
+}
+
+#wrap{
+	background-color: white;
+	display: inline-block;
+}
+
+#menu{
+	width:740px;
+	padding:0px 50px 50px 50px;
+	background-color: white;
+	display: inline-block;
+	background-image: url("img/flower_1.png");
+	margin:auto;
+	margin-bottom: 50px;
+}
+
+#tumblrdump{
+	margin:auto;
+	margin-top: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: #dff7c6;
+	display: inline-block;
+	width:300px;
+	text-align: center;
+	background-color: white;
+	background-opacity: 50;
+}
+
+#photodump{
+	margin-left:10px;
+	margin-top: 50px;
+	border-style: solid;
+	border-color: green;
+	border-width: 10px;
+	display: inline-block;
+}
+
+#testemonials{
+	text-align: center;
+	padding: 50px;
+	float:left;
+	width: 300px;
+	background-color: white;
+	display: inline-block;
+	margin:auto;
+	margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 0px){
+	#page{
+		width: 860px;
+	}
+	.hours{
+		width:685px;
+	}
+	#friday{
+		width:206px;
+	}
+	#saturday{
+		width:206px;
+	}
+	#sunday{
+		width:206px;
+	}
+@media screen and (max-width: 860px) and (min-width: 0px) {
+	#map{
+		margin:auto;
+		margin-bottom: 50px;
+	}
+	#page{
+		width: 400px;
+	}
+	.tag{
+		font-size: 70%;
+		width: 300px;
+		height: 50px;
+	}
+	#menu{
+		width:300px;
+	}
+	#photodump{
+		width: 280px;
+		margin-left: 0px;
+	}
+	.hours{
+		width:320px;
+	}
+	.day{
+		width:300px;
+		height:100px;
+	}
+	#friday{
+		width:300px;
+		height:100px;
+	}
+	#saturday{
+		width:300px;
+		height:100px;
+	}
+	#sunday{
+		width:300px;
+		height:100px;	
+	}
+}
